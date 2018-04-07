@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                             //final String path = FileUtils.getPath(this, uri);
                             Log.i(TAG, "path = " + path);
                             Toast.makeText(MainActivity.this,
-                                    "File Selected: " + path, Toast.LENGTH_LONG).show();
+                                    "File Chosen: " + path, Toast.LENGTH_LONG).show();
                         } catch (Exception e) {
                             Log.e(TAG, "File select error", e);
                         }
